@@ -7,11 +7,10 @@ class Balloon {
         this.y = canvas.height - 150; 
         this.size = 30;
         this.balloonImages = [
-            'assets/10025.png', 'assets/10026.png', 'assets/100001.png',
+            'assets/100001.png',
             'assets/100002.png', 'assets/100003.png', 'assets/100004.png',
             'assets/100005.png', 'assets/100006.png', 'assets/100007.png',
             'assets/100008.png', 'assets/100009.png', 'assets/100010.png',
-            'assets/100011.png'
         ];
         this.image = new Image();
         this.image.src = this.balloonImages[Math.floor(Math.random() * this.balloonImages.length)];
